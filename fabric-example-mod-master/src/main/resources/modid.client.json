@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.fabricmc.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	
+	"PlayerMoveC2SPacketAccessor",
+	"PlayerPositionLookS2CPacketAccessor",
+	"UpdatePlayerAbilitiesC2SPacketAccessor"
+  ],
+  "client": [
+  "MixinBufferBuilder",
+  "MixinBufferBuilder2",
+  "ChatListenerHudPatch",
+  	"AbstractBlockPatch",
+  	"MinecraftClientPatch",
+  	"HungerManagerPatch",
+  	"InGameHudPatch",
+    "BlockPatch",
+    "BlockStatePatch",
+	"ClientConnectionPatch",
+	"PlayerEntityPatch",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
