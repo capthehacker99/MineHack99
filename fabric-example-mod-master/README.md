@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# MineHack99
 
-## Setup
+feel free to do whatever you want with this. Make it better or worse, the choice is yours.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+You may download the compiled ver from the libs folder
